@@ -18,42 +18,42 @@ collection_of_coins = {1, 2, 25}
 
 sorted_variables = {"mutable": [], "immutable": []}
 
-if type(lucky_number) == int:
+if isinstance(lucky_number, int):
     sorted_variables["immutable"].append(lucky_number)
 else:
     sorted_variables["mutable"].append(lucky_number)
 
-if type(pi) == float:
+if isinstance(pi, float):
     sorted_variables["immutable"].append(pi)
 else:
     sorted_variables["mutable"].append(pi)
 
-if type(one_is_a_prime_number) == bool:
+if isinstance(one_is_a_prime_number, bool):
     sorted_variables["immutable"].append(one_is_a_prime_number)
 else:
     sorted_variables["mutable"].append(one_is_a_prime_number)
 
-if type(name) == str:
+if isinstance(name, str):
     sorted_variables["immutable"].append(name)
 else:
     sorted_variables["mutable"].append(name)
 
-if type(my_favourite_films) == list:
+if isinstance(my_favourite_films, list):
     sorted_variables["mutable"].append(my_favourite_films)
 else:
     sorted_variables["immutable"].append(my_favourite_films)
 
-if type(profile_info) == tuple:
+if isinstance(profile_info, tuple):
     sorted_variables["immutable"].append(profile_info)
 else:
     sorted_variables["mutable"].append(profile_info)
 
-if type(marks) == dict:
+if isinstance(marks, dict):
     sorted_variables["mutable"].append(marks)
 else:
     sorted_variables["immutable"].append(marks)
 
-if type(collection_of_coins) == set:
+if isinstance(collection_of_coins, set):
     sorted_variables["mutable"].append(collection_of_coins)
 else:
     sorted_variables["immutable"].append(collection_of_coins)
